@@ -1,0 +1,9 @@
+.badge-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    color: white;
+}

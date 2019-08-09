@@ -1,0 +1,5 @@
+.app-wrapper {
+  display: flex;
+  border-radius: 3pt;
+  height: 100%;
+}
