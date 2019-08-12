@@ -13,7 +13,7 @@ function Badge(props) {
                 <Heading className="heading" size={800}>{props.name}</Heading>
             </Pane>
             <Pane align="center">
-                <p>{props.role}</p>
+                <p>{props.organizationRole}</p>
                 <p>{props.organization}</p>
                 <Link href="#" color="green" size={500}>{props.email}</Link>
             </Pane>

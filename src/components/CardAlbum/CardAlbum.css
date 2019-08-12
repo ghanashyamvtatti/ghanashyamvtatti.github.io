@@ -1,0 +1,5 @@
+.album-wrapper {
+    margin-top: 100pt;
+    display: flex;
+    flex-wrap: wrap;
+}

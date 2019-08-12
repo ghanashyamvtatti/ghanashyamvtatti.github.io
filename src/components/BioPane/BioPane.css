@@ -1,0 +1,8 @@
+.bio-pane {
+    display: flex;
+    flex: 2pt;
+    justify-content: flex-start;
+    background: #084B8A;
+    color: white;
+    height: 100%;
+}

@@ -1,5 +1,5 @@
+import { Heading, Pane } from 'evergreen-ui';
 import React from 'react';
-import { Pane, Heading } from 'evergreen-ui';
 import Badge from '../Badge/Badge';
 import './Bio.css';
 
@@ -10,7 +10,7 @@ function Bio(props) {
                 img="/IMG_1145.jpeg"
                 name="Ghanashyam V T"
                 email="gvt217@nyu.edu"
-                role="Student (MS in CS)"
+                organizationRole="Student (MS in CS)"
                 organization="NYU Tandon School of Engineering" />
             <Pane className="bio-pane">
                 <Heading className="heading" size={600}>Bio:</Heading>
