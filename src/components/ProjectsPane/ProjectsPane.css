@@ -5,4 +5,5 @@
     background: "tint1";
     flex: 5;
     min-width: 320pt;
+    overflow: scroll;
 }

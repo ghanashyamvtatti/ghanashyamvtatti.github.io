@@ -1,11 +1,11 @@
-import { Card, Text } from 'evergreen-ui';
+import { Card, Heading } from 'evergreen-ui';
 import React from 'react';
 import './ProjectCard.css';
 
-function ProjectCard() {
+function ProjectCard(props) {
     return (
-        <Card elevation={1} background="white" height={200} width={200}>
-            <Text>Project</Text>
+        <Card elevation={1} className="card">
+            <Heading size={700} margin-top={30} className="project-name">{props.projectName}</Heading>
         </Card>
     );
 }
