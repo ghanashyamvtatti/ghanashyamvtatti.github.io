@@ -4,5 +4,5 @@
     justify-content: flex-start;
     background: #084B8A;
     color: white;
-    height: 100%;
+    height: inherit;
 }
