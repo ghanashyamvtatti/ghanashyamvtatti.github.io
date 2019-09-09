@@ -16,7 +16,7 @@ function Bio(props) {
                 organizationRole="Student (MS in CS)"
                 organization="NYU Tandon School of Engineering" />
             <Pane className="bio-pane">
-                <Heading className="heading" size={600}>Bio:</Heading>
+                <Heading className="heading" size={600} color="white">Bio:</Heading>
                 {newText}
             </Pane>
         </Pane>
