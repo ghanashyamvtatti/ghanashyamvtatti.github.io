@@ -6,7 +6,6 @@ import './Bio.css';
 function Bio(props) {
 
     let newText = props.bio.split('\\n').map((item, i) => <p key={i}>{item}</p>);
-    console.log(newText);
 
     return (
         <Pane className="bio-wrapper">
