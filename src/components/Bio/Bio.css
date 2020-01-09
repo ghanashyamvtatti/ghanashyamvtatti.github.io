@@ -13,9 +13,29 @@
     padding-right: 20pt;
     text-align: justify;
     flex-direction: column;
-    height: 100%;
+    /* background: #084B8A; */
+    color: white;
 }
 
 .heading {
     color: white;
+}
+
+/* iPhone XR */
+@media only screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) { 
+    /* styles */
+    .bio-pane {
+        display: flex;
+        padding-top: 30pt;
+        padding-left: 20pt;
+        padding-right: 20pt;
+        text-align: justify;
+        flex-direction: column;
+        /* background: #084B8A; */
+        color: white;
+    }
 }

@@ -8,13 +8,15 @@ function Bio(props) {
     let newText = props.bio.split('\\n').map((item, i) => <p key={i}>{item}</p>);
 
     return (
-        <Pane className="bio-wrapper">
-            <Badge
-                img="/IMG_1145.jpeg"
-                name="Ghanashyam V T"
-                email="gvt217@nyu.edu"
-                organizationRole="Student (MS in CS)"
-                organization="NYU Tandon School of Engineering" />
+        <Pane className="blue-bg">
+            <Pane className="bio-wrapper">
+                <Badge
+                    img="/IMG_1145.jpeg"
+                    name="Ghanashyam V T"
+                    email="gvt217@nyu.edu"
+                    organizationRole="Student (MS in CS)"
+                    organization="NYU Tandon School of Engineering" />
+            </Pane>
             <Pane className="bio-pane">
                 <Heading className="heading" size={600} color="white">Bio:</Heading>
                 {newText}

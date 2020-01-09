@@ -1,6 +1,15 @@
 .album-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     flex-wrap: wrap;
+}
+
+/* Phones */
+@media (max-width: 900px) {
+        .album-wrapper {
+            display: block;
+            align-items: center;
+        }
 }

@@ -2,8 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: "tint1";
+    background: #F5F6F7;
     flex: 5;
     min-width: 320pt;
     overflow-y: scroll;
+}
+
+/* Phones */
+@media (max-width: 900px) {
+    .projects-pane {
+        width: 100%;
+    }
 }
