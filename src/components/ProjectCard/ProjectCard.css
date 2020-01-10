@@ -23,8 +23,11 @@
 /* Phone */
 @media (max-width: 900px) {
     .card {
+        align-self: center;
         margin-left: auto;
         margin-right: auto;
+        padding-right: 1em;
+        max-width: 250pt;
     }
     
     .short-desc {

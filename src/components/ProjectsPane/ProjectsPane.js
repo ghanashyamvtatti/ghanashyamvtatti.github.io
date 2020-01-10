@@ -5,7 +5,7 @@ import './ProjectsPane.css';
 
 function ProjectsPane() {
     return (
-        <Pane className="projects-pane">
+        <Pane className="projects-pane" >
             <Pane>
                 <Heading marginTop={50} size={900}>Projects</Heading>
             </Pane>

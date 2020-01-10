@@ -8,6 +8,8 @@ function CardAlbum() {
         <Pane className="album-wrapper" marginTop={100}>
             <ProjectCard projectName="AutoML"
                         desc="Automated Machine Learning for regression, classification, 
+                        forecasting of numerical data and classification of images as well."
+                        longDesc="Automated Machine Learning for regression, classification, 
                             forecasting of numerical data and classification of images as well.\n
                             It uses a combination of scikit-learn, tensorflow and keras.\n
                             Each trained model can be deployed on automatically managed docker containers." />
@@ -15,13 +17,13 @@ function CardAlbum() {
                         desc="Detection of gas leaks using image classification via Convolutional Neural Networks on low-cost thermal cameras.\n
                             Data from the temperature sensor array is also used to help determine the type of gas being leaked." />
             <ProjectCard projectName="Distributed Machine Learning(DMLN)"
-                        desc="Detects audio and image anomalies in manufacturing industries with over 90% accuracy.\n
-                            Allows users to remotely capture data from sensors, train classification models using them and finally deploy them to any remote location."
+                        desc="Allows users to remotely capture data from sensors, train classification models using them and finally deploy them to any remote location."
                         longDesc="An application to collect training data, train and build models based on the collected data using Tensorflow,\n
                          and to deploy these models on remote systems.\n
                         The application used python, Tensorflow, docker, librosa, OpenCV, scikit-image and flask for the APIs." />
             <ProjectCard projectName="Analysis and Automated Mapping of Products to Categories in E-Commerce" 
-                        desc="Scraped and cleaned product to category mapping of multiple e-commerce websites.\n
+                        desc="A solution to map new products automatically to categories"
+                        longDesc="Scraped and cleaned product to category mapping of multiple e-commerce websites.\n
                             Used the data to build an intelligent solution that maps new products automatically to categories based on information like brand and image." />
             <ProjectCard projectName="Chatbot Builder" 
                         desc="Uses Spacy, RASA and duckling to enable users to quickly and easily build chatbots via a simple UI.\n
