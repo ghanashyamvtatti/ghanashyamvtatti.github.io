@@ -16,13 +16,20 @@ function CardAlbum() {
                             Data from the temperature sensor array is also used to help determine the type of gas being leaked." />
             <ProjectCard projectName="Distributed Machine Learning(DMLN)"
                         desc="Detects audio and image anomalies in manufacturing industries with over 90% accuracy.\n
-                            Allows users to remotely capture data from sensors, train classification models using them and finally deploy them to any remote location." />
+                            Allows users to remotely capture data from sensors, train classification models using them and finally deploy them to any remote location."
+                        longDesc="An application to collect training data, train and build models based on the collected data using Tensorflow,\n
+                         and to deploy these models on remote systems.\n
+                        The application used python, Tensorflow, docker, librosa, OpenCV, scikit-image and flask for the APIs." />
             <ProjectCard projectName="Analysis and Automated Mapping of Products to Categories in E-Commerce" 
                         desc="Scraped and cleaned product to category mapping of multiple e-commerce websites.\n
                             Used the data to build an intelligent solution that maps new products automatically to categories based on information like brand and image." />
             <ProjectCard projectName="Chatbot Builder" 
                         desc="Uses Spacy, RASA and duckling to enable users to quickly and easily build chatbots via a simple UI.\n
-                            The chatbot can also be deployed as an Alexa skill." />
+                            The chatbot can also be deployed as an Alexa skill." 
+                            longDesc="The Chatbot Framework is a python library to create powerful chatbots really fast and easily.\n 
+                            It uses a basic neural network for intent classification and a Natural Language Processing (NLP) unit\n
+                            for tasks like Named Entity Recognition (NER) and sentiment analysis. \n
+                            The framework also allows training of new custom entities."/>
             <ProjectCard projectName="License Plate Detection using Image Segmentation" 
                         desc="Performs image segmentation using DeepLab and then uses Tesseract to perform OCR" />
             <ProjectCard projectName="PokeGAN" 
@@ -33,7 +40,10 @@ function CardAlbum() {
                             Also enables the users to deploy the trained models and uses on-device hardware for inference." />
             <ProjectCard projectName="Smart Water-Grid System using Blockchain" 
                         desc="Used to determine leakage in water-grids.\n
-                            Amount of water sent and received is recorded on the blockchain and tallied to detect the leaks." />
+                            Amount of water sent and received is recorded on the blockchain and tallied to detect the leaks."
+                        longDesc="A smart grid system was built using blockchain, \n
+                        where a leak in the grid could be detected through tracking the blockchain ledger in which all transactions would be recorded.\n
+                        This project gave us the opportunity to evaluate various blockchain implementations, including hyperledger fabric and ethereum." />
             <ProjectCard projectName="Custom ERC-20 Token" 
                         desc="An ERC-20 compliant cryptocurrency to serve as store credit for a medical service provider." />
             <ProjectCard projectName="Document Verification using Blockchain"
@@ -49,9 +59,17 @@ function CardAlbum() {
                         desc="This website.\n
                             Built using React.js.\n
                             Powered by GitHub pages."/>
-            <ProjectCard projectName="Scraping and Analysis of Stock Data" 
+            <ProjectCard projectName="StockMeMaybe" 
                         desc="Scraped user generated content about stocks on various forums and social media.\n
-                            Performed sentiment analysis on the content and used it to predict the stock prices for the next day" />
+                            Performed sentiment analysis on the content and used it to predict the stock prices for the next day"
+                        longDesc="StockMeMaybe is a web application that uses the predictive capacity of User Generated Content (UGC) \n to predict stock prices. 
+                        \nIt scrapes UGC from Twitter, Yahoo Finance News and Yahoo Finance Messages. \n
+                        Sentiment analysis is performed on the UGC and the effective sentiment is used to predict the next day's price of any NASDAQ company. 
+                        \nPrimary Language : Python
+                        \nWeb Application Framework : Django
+                        \nDBMS: MySQL
+                        \nFront-end: HTML, CSS, JavaScript, Bootstrap.
+                        \nKeywords: Stocks, Prediction, Scraping, Predictive Analytics, User Generated Content, Sentiment Analytics, Natural Language Pricessing, Python, Django" />
             <ProjectCard projectName="Automated Task Extraction" 
                         desc="Used OpenCV and Scikit-Image to determine the actions being performed by the user on the screen.\n
                             The collected data is then used to eventually suggest the fastest way of performing a certain task." />
