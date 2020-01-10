@@ -9,6 +9,11 @@
     }
 }
 
+.social-media {
+    padding-right: 1em;
+}
+
+
 /* Phones */
 @media (max-width: 900px) { 
     /* styles */
