@@ -7,7 +7,7 @@ function ProjectsPane() {
     return (
         <Pane className="projects-pane" >
             <Pane>
-                <Heading marginTop={50} size={900}>Projects</Heading>
+                <Heading marginTop={50} size={700}>Projects</Heading>
             </Pane>
             <CardAlbum />
         </Pane>

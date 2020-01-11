@@ -15,12 +15,13 @@ class ProjectCard extends Component {
         return (
             <Pane>
                 <Card
-                    elevation={2}
-                    hoverElevation={4}
-                    activeElevation={4}
+                    elevation={1}
+                    hoverElevation={3}
+                    activeElevation={3}
                     className="card"
+                    borderRadius={10}
                     onClick={() =>  this.setState({ isShown: true })}>
-                    <Heading size={700} className="project-name">{this.props.projectName}</Heading>
+                    <Heading size={600} className="project-name">{this.props.projectName}</Heading>
                     <Pane className="short-desc">{newDesc}</Pane>
                 </Card>
                 <Dialog

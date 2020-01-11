@@ -5,7 +5,7 @@ import './CardAlbum.css';
 
 function CardAlbum() {
     return (
-        <Pane className="album-wrapper" marginTop={100}>
+        <Pane className="album-wrapper" marginTop={50}>
             <ProjectCard projectName="AutoML"
                         desc="Automated Machine Learning for regression, classification, 
                         forecasting of numerical data and classification of images as well."
@@ -53,7 +53,7 @@ function CardAlbum() {
             <ProjectCard projectName="E-Commerce Inventory Hierarchy Visualization" 
                         desc="Used d3.js to determine and visualize the hierarchy of the product inventory for an e-commerce company." />
             <ProjectCard projectName="Crypto-Currency based Mutual Funds" 
-                        desc="Prototyped an applicationto generate cryptocurrencies based on stocks and other cryptocurrencies.\n
+                        desc="Prototyped an application to generate cryptocurrencies based on stocks and other cryptocurrencies.\n
                             This includes rebalancing strategies for simple and reliable price variation." />
             <ProjectCard projectName="Custom Character-Set Generation and OCR" 
                         desc="Created an application that generates encrypted character-sets and trained the Tesseract OCR for reading them." />

@@ -11,7 +11,7 @@
     padding-top: 30pt;
     padding-left: 20pt;
     padding-right: 20pt;
-    text-align: justify;
+    text-align: left;
     flex-direction: column;
     /* background: #084B8A; */
     color: white;
@@ -19,6 +19,10 @@
 
 .heading {
     color: white;
+}
+
+.paragraph {
+    text-align: left;
 }
 
 /* Phones */
@@ -29,9 +33,13 @@
         padding-top: 30pt;
         padding-left: 20pt;
         padding-right: 20pt;
-        text-align: justify;
+        text-align: left;
         flex-direction: column;
         /* background: #084B8A; */
         color: white;
+    }
+
+    .paragraph {
+        text-align: left;
     }
 }

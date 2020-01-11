@@ -1,6 +1,5 @@
 import React from 'react';
 import { Pane, Avatar, Heading } from 'evergreen-ui';
-import { Link } from 'evergreen-ui/commonjs/typography';
 import './Badge.css';
 
 function Badge(props) {
@@ -15,7 +14,7 @@ function Badge(props) {
             <Pane align="center">
                 <p>{props.organizationRole}</p>
                 <p>{props.organization}</p>
-                <Link href="#" color="green" size={500}>{props.email}</Link>
+                <a href="#" className="link">{props.email}</a>
             </Pane>
         </Pane>
     );

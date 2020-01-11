@@ -3,3 +3,11 @@
     align-items: center;
     flex-direction: column;
 }
+
+.link {
+    color: #F1C40F; /*new colour*/
+    font-weight: bold;
+}
+.link span {
+    color:#aaaaaa; /*originalcolour*/
+}

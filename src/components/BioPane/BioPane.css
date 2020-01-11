@@ -11,6 +11,11 @@
 
 .social-media {
     padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.social-media:hover {
+    cursor: pointer;
 }
 
 
