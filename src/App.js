@@ -4,7 +4,7 @@ import './App.css';
 import BioPane from './components/BioPane/BioPane';
 import ProjectsPane from './components/ProjectsPane/ProjectsPane';
 
-function App() {
+function App() {  
   return (
     <Pane className="app-wrapper">
       <BioPane />
