@@ -12,6 +12,7 @@
 @media (max-width: 900px) {
     .projects-pane {
         width: 100%;
+        min-width:200pt;
         overflow-y: auto;
     }
 }

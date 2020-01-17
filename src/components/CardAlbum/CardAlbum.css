@@ -8,7 +8,8 @@
 /* Phones */
 @media (max-width: 900px) {
         .album-wrapper {
-            display: block;
+            /* display: block; */
+            flex-direction: column;
             align-items: center;
             max-width: 300pt;
         }
