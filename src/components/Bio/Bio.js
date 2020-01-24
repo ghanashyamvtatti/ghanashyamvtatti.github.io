@@ -13,7 +13,7 @@ function Bio(props) {
                 <Badge
                     img="/IMG_1145.jpeg"
                     name="Ghanashyam V Tatti"
-                    email="gvt217@nyu.edu"
+                    email="ghanashyamvtatti@gmail.com"
                     organizationRole="Student (MS in CS)"
                     organization="NYU Tandon School of Engineering" />
             </Pane>
