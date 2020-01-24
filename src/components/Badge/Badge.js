@@ -3,6 +3,7 @@ import { Pane, Avatar, Heading } from 'evergreen-ui';
 import './Badge.css';
 
 function Badge(props) {
+    let anchorBlank = "#"
     return (
         <Pane className="badge-wrapper">
             <Pane>
@@ -14,7 +15,7 @@ function Badge(props) {
             <Pane align="center">
                 <p>{props.organizationRole}</p>
                 <p>{props.organization}</p>
-                <a href="#" className="link">{props.email}</a>
+                <a href={anchorBlank} className="link">{props.email}</a>
             </Pane>
         </Pane>
     );
