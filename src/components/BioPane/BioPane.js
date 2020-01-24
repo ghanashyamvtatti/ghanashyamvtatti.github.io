@@ -3,6 +3,7 @@ import React from 'react';
 import Bio from '../Bio/Bio';
 import './BioPane.css';
 import { FaGithubAlt, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { TiDocumentText } from "react-icons/ti";
 
 function newTab(URL) {
   window.open(URL, '_blank');
@@ -17,6 +18,7 @@ function BioPane() {
           <FaGithubAlt size="2em" className="social-media" onClick={() => newTab("https://github.com/ghanashyamvtatti")}/>
           <FaLinkedinIn size="2em" className="social-media" onClick={() => newTab("https://www.linkedin.com/in/ghanashyam-vt")}/>
           <FaTwitter size="2em" className="social-media" onClick={() => newTab("https://twitter.com/ghanashyamvt")}/>
+          <TiDocumentText size="2em" className="social-media" onClick={() => newTab("https://drive.google.com/file/d/1GgioP2_3K6oIm1TQCBczK76r0Sv_4b1W/view?usp=sharing")}/>
         </Pane>
       </Pane>
     );//
